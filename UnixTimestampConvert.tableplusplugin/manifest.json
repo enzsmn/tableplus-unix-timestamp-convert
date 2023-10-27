@@ -1,0 +1,39 @@
+{
+  "name": "Unix timestamp convert",
+  "identifier": "tableplus-unix-timestamp-convert",
+  "version": "1.0",
+  "detail": "This TablePlus plugin converts a unix timestamp into a human readable date",
+  "author": "Enzo Simoen",
+  "scripts": [
+    {
+      "location": "data",
+      "type": "separator"
+    },
+    {
+      "location": "data",
+      "type": "action",
+      "script": "unixTimestampConvert.js",
+      "handler": "toISO",
+      "name": "Convert unix timestamp to ISO"
+    },
+    {
+      "location": "data",
+      "name": "Convert unix timestamp…",
+      "type": "submenu",
+      "children": [
+        {
+          "type": "action",
+          "script": "unixTimestampConvert.js",
+          "handler": "toCET",
+          "name": "to Central European Time (CET)"
+        },
+        {
+          "type": "action",
+          "script": "unixTimestampConvert.js",
+          "handler": "toPST",
+          "name": "to Pacific Standard Time (PST)"
+        }
+      ]
+    }
+  ]
+}
