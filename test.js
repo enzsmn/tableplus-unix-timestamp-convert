@@ -1,4 +1,4 @@
-const convertTimestamp = require("./library/convertTimestamp");
+const convertTimestamp = require("./UnixTimestampConvert.tableplusplugin/convertTimestamp");
 
 const timestamp = 1698418522;
 

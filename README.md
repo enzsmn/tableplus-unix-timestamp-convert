@@ -2,23 +2,11 @@
 
 This TablePlus plugin converts a unix timestamp into a human readable date.
 
-![menu](https://github.com/enzsmn/TablePlus-unix-timestamp-convert/blob/main/Resource/demo.gif "menu")
+![demo](https://github.com/enzsmn/TablePlus-unix-timestamp-convert/blob/main/demo.gif "demo")
 
 # Install
 
-### From release
-
-Download [release](https://github.com/enzsmn/TablePlus-unix-timestamp-convert/releases), unzip and double click on file plugin to install.
-
-### Build from source
-
-```
-git clone git@github.com:enzsmn/TablePlus-unix-timestamp-convert.git
-cd TablePlus-unix-timestamp-convert/UnixTimestampConvert.tableplusplugin
-npm install
-npm run build
-open .
-```
+Download [release](https://github.com/enzsmn/TablePlus-unix-timestamp-convert/releases) and double click on file plugin to install.
 
 # How to use
 

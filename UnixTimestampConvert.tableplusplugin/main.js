@@ -1,4 +1,4 @@
-const convertTimestamp = require("./library/convertTimestamp");
+const convertTimestamp = require("./convertTimestamp");
 
 const setContent = function (context, timezone = null) {
   let row = context.clickedRow();
